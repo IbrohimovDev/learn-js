@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background:linear-gradient(45deg,lightgreen,lightblue,violet);
+}
+h1{
+	color:white;
+	font-family: 'Indie Flower',sans-serif;
+	font-size:10vw;
+	text-align:center;
+	justify-content: center;
+	/*text-shadow:0 0 5px lightyellow;*/
+}	
+span{
+
+	background:lightgreen;
+	color:white;
+	border-radius:20px;
+	padding:0 10px;
+}
+i{
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	color:yellow;
+	background:black;
+	margin-bottom:20px;
+}
+div{
+	width:70%;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
